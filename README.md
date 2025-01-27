@@ -4,4 +4,4 @@ Features I added are:
 * Placing polygons (usually rectangles but sometimes parallelograms) of varying colors around each of the lines. 👍
 * Placing rectangles around the tables. ❤️
 * Placing a rectangle around the line that a user selects in a combo box and displaying that line's text. 😊
-* Placing polygons around each word, showing the number of words and the words themselves that begin with each letter in Form4 
+* Placing polygons around each word, showing the number of words and the words themselves that begin with each letter in Form4 :🤓
