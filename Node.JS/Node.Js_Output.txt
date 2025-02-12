@@ -1,0 +1,153 @@
+Page width-a-doodle-don't:  8.5
+Page height-a-doodle-doo 11
+word count:  115
+1st word:  CONTOSO   confidence: 0.998
+line count:  55
+1st line:  CONTOSO LTD.
+0 :  CONTOSO LTD. undefined
+1 :  INVOICE undefined
+2 :  Contoso Headquarters undefined
+3 :  INVOICE: INV-100 undefined
+4 :  123 456th St undefined
+5 :  DATE: 11/15/2019 undefined
+6 :  New York, NY, 10001 undefined
+7 :  DUE DATE: 12/15/2019 undefined
+8 :  CUSTOMER NAME: MICROSOFT CORPORATION undefined
+9 :  CUSTOMER ID: CID-12345 undefined
+No key value pairs
+# of table, Jabroni 3
+Yo playa, the number of cells in the 1st table is: 12
+# of cells in table 0 : 12
+# of cells in table 1 : 12
+# of cells in table 2 : 10
+Hey Jabroni, the number of columns in the 1st table is: 6  and the number of rows is 2
+table bounding regions:  1
+table boundingRegions polygon:  [
+  0.4823, 4.9593,
+  8.0033, 4.9582,
+  8.0037, 5.5279,
+   0.483, 5.5287
+]
+table boundingRegions polygon 0:  0.4823
+table boundingRegions polygon length:  8
+The party-on points in the polygon are:
+( 0.4823 , 4.9593)
+( 8.0033 , 4.9582)
+( 8.0037 , 5.5279)
+( 0.483 , 5.5287)
+( 0 , 0 ) SALESPERSON
+( 0 , 1 ) P.O. NUMBER
+( 0 , 2 ) REQUISITIONER
+( 0 , 3 ) SHIPPED VIA
+( 0 , 4 ) F.O.B. POINT
+( 0 , 5 ) TERMS
+( 1 , 0 )
+( 1 , 1 ) PO-3333
+( 1 , 2 )
+( 1 , 3 )
+( 1 , 4 )
+( 1 , 5 )
+result is AOK
+{
+  type: 'currency',
+  valueCurrency: { currencySymbol: '$', amount: 610, currencyCode: 'USD' },
+  content: '$610.00',
+  boundingRegions: [ { pageNumber: 1, polygon: [Array] } ],
+  confidence: 0.95,
+  spans: [ { offset: 653, length: 7 } ]
+}
+AmountDue's content: $610.00   type: currency   currencySymbol: $   currencyCode: USD   confidence: 0.95
+AmountDue's bounding polygon's 1st coordinate:  7.3664
+AmountDue's bounding polygon's coordinates:
+   (7.3664,7.8028)  (7.9341,7.8045)  (7.9338,7.9676)  (7.3669,7.9706)
+AmountDue : {
+  type: 'currency',
+  valueCurrency: { currencySymbol: '$', amount: 610, currencyCode: 'USD' },
+  content: '$610.00',
+  boundingRegions: [ { pageNumber: 1, polygon: [Array] } ],
+  confidence: 0.95,
+  spans: [ { offset: 653, length: 7 } ]
+}
+Funky Cold Medina says the offset is:  653  and the party-on amount is  610
+The boogie-get-sideways invoice fields:  AmountDue, BillingAddress, BillingAddressRecipient, CustomerAddress, CustomerAddressRecipient, CustomerId, CustomerName, DueDate, InvoiceDate, InvoiceId, InvoiceTotal, Items, PreviousUnpaidBalance, PurchaseOrder, RemittanceAddress, RemittanceAddressRecipient, ServiceAddress, ServiceAddressRecipient, ShippingAddress, ShippingAddressRecipient, SubTotal, TotalTax, VendorAddress, VendorAddressRecipient, VendorName,
+BillingAddress : {
+  type: 'address',
+  content: '123 Bill St,\nRedmond WA, 98052',
+  boundingRegions: [ { pageNumber: 1, polygon: [Array] } ],
+  confidence: 0.889,
+  spans: [ { offset: 328, length: 12 }, { offset: 370, length: 17 } ],
+  valueAddress: {
+    houseNumber: '123',
+    road: 'Bill St',
+    postalCode: '98052',
+    city: 'Redmond',
+    state: 'WA',
+    streetAddress: '123 Bill St'
+  }
+}
+BillingAddress 's valueAddress.streetAddress: 123 Bill St
+AmountDue - currency
+BillingAddress - address
+BillingAddressRecipient - string
+CustomerAddress - address
+CustomerAddressRecipient - string
+CustomerId - string
+CustomerName - string
+DueDate - date
+InvoiceDate - date
+InvoiceId - string
+InvoiceTotal - currency
+Items - array
+PreviousUnpaidBalance - currency
+PurchaseOrder - string
+RemittanceAddress - address
+RemittanceAddressRecipient - string
+ServiceAddress - address
+ServiceAddressRecipient - string
+ShippingAddress - address
+ShippingAddressRecipient - string
+SubTotal - currency
+TotalTax - currency
+VendorAddress - address
+VendorAddressRecipient - string
+VendorName - string
+The runny-all-aroundy date fields:
+DueDate - 2019-12-15
+InvoiceDate - 2019-11-15
+The shang-hai-shek Items field:
+{
+  type: 'array',
+  valueArray: [
+    {
+      type: 'object',
+      valueObject: [Object],
+      content: '1\nTest for 23 fields\n1\n$100.00',
+      boundingRegions: [Array],
+      confidence: 0.923,
+      spans: [Array]
+    }
+  ]
+}
+The jumpy-up-&-downy content in Items:
+1
+Test for 23 fields
+1
+$100.00
+1st bounding region: {
+  pageNumber: 1,
+  polygon: [
+    0.5825, 6.0793,
+      7.93, 6.0704,
+    7.9302, 6.2368,
+    0.5827, 6.2456
+  ]
+}
+# of bounding regions: 1
+1st bounding region's page #: 1
+# of items in 1st bounding region's polygons: 8
+The party-on polygon point: (0.5825,6.0793)  (7.93,6.0704)  (7.9302,6.2368)  (0.5827,6.2456)
+The party-on polygon numbered points: 1:(0.5825,6.0793)  2:(7.93,6.0704)  3:(7.9302,6.2368)  4:(0.5827,6.2456)
+# of spans: 1
+1st spans: { offset: 539, length: 30 }
+The rockin' span's offset: 539 and it's party-on-Garth length: 30
+The holy-haberdashery confidence of Items is 0.923
